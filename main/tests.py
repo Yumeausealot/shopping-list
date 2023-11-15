@@ -2,7 +2,7 @@ from django.test import TestCase
 
 # Create your tests here.
 from django.test import TestCase, Client
-
+#
 class mainTest(TestCase):
     def test_main_url_is_exist(self):
         response = Client().get('/main/')
